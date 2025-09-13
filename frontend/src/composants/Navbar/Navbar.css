@@ -1,0 +1,72 @@
+.Navbar{
+display: flex;
+justify-content: space-around;
+padding: 16px;
+box-shadow: 0 1px 3px -2px black  ; ;
+}
+.logo{
+    display:flex ;
+    align-items: center;
+    gap: 10px;
+}
+.logo img{
+    width: 100px;
+}
+.logo p{
+    color: black;
+    font-size:38px ;
+    font-weight: 600;
+}
+.catégories{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    color: chocolate;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.catégories li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    cursor: pointer;
+}
+
+.catégories hr{
+  border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: brown;
+}
+
+.connexion-panier{
+    display: flex;
+    align-items: center ;
+    gap:45px; 
+}
+.connexion-panier button{
+    width: 157px;
+    height: 58px;
+    border-radius: 75px;
+    color: burlywood;
+    font-size: 22px;
+    font-weight: 500;
+    background: white;
+    outline: none;
+    border: 1px solid  grey;
+    cursor: pointer;
+}
+.connexion-panier button:active{
+    background-color: blanchedalmond;
+
+
+}
+
+.connexion-panier img{
+    cursor: pointer;
+}
