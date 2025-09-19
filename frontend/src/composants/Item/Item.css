@@ -9,13 +9,13 @@ display:flex;
 gap: 20px;
 }
 
-.item-price-new{
+.new-price{
 color: black;
 font-size: 18px;
 font-weight: 600;
 }
 
-.item-price-old{
+.old-price{
 color:gray;
 font-size: 18px;
 font-weight: 500;
